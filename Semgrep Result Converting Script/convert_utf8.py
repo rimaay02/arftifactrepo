@@ -1,4 +1,4 @@
-with open("idor2.json", "rb") as file:
+with open("semgrep_all.json", "rb") as file:
     content = file.read()
 
 with open("semgrep_results_fixed.json", "w", encoding="utf-8") as file:
